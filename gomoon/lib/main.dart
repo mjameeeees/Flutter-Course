@@ -13,7 +13,7 @@ class App extends StatelessWidget{
     return MaterialApp(
       title: 'GoMoon',
       theme: ThemeData(
-        scaffoldBackgroundColor: Color.fromARGB(255, 6, 59, 5)
+        scaffoldBackgroundColor: Color.fromARGB(50, 26, 26, 29)
       ),
       home: Homepage(),
     );
