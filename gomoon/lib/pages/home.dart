@@ -15,12 +15,18 @@ class Homepage extends StatelessWidget {
         height: deviceHeight,
         width: deviceWidth,
         padding: EdgeInsets.symmetric(horizontal: deviceWidth * .05),
-        child: dropDown(),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisSize: MainAxisSize.max,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            pageTitle(),
+            dropDown()
+          ],
+        ),
       ),),
     );
   }
-
-
 
 Widget pageTitle() {
   return Container(
